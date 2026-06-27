@@ -32,11 +32,13 @@ header{
 
 .logo{
 
-    font-size:14px;
+    font-size:44px;
 
-    letter-spacing:.25em;
+    letter-spacing:.16em;
 
-    font-weight:600;
+    font-weight:1000;
+
+    text-transform:uppercase;
 
 }
 
