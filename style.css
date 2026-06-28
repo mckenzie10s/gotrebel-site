@@ -71,20 +71,17 @@ nav a:hover {
     opacity: .45;
 }
 
-.main-nav a.active::after,
-nav a.active::after {
+.main-nav a.active::after {
     content: "";
-    width: 8px;
-    height: 8px;
-
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
     background: #B35A2B;
-
     position: absolute;
     left: 50%;
-    bottom: -16px;
-
+    bottom: -18px;
     transform: translateX(-50%);
+}
 }
 
 /* ---------- Home / Hero ---------- */
