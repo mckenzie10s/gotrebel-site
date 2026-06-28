@@ -570,3 +570,20 @@ footer{
     opacity: .45;
 
 }
+.main-nav a {
+    position: relative;
+    color: #111;
+    text-decoration: none;
+}
+
+.main-nav a.active::after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #B35A2B;
+    position: absolute;
+    left: 50%;
+    bottom: -16px;
+    transform: translateX(-50%);
+}
