@@ -318,3 +318,42 @@ footer {
     padding: 36px 0 !important;
   }
 }
+/* ---------- HARD ALIGN HOMEPAGE ---------- */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+.hero {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 110px 0 130px !important;
+}
+
+.services-section {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 0 140px !important;
+}
+
+footer {
+  max-width: 1200px;
+  margin: 0 auto 80px !important;
+  padding: 48px !important;
+}
+
+@media (max-width: 1100px) {
+  main {
+    padding: 0 32px;
+  }
+
+  .hero {
+    padding: 80px 0 110px !important;
+  }
+
+  .services-section {
+    padding: 0 0 120px !important;
+  }
+}
